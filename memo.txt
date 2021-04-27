@@ -1,0 +1,16 @@
+JupyterLabの使い方
+
+コマンドプロンプト(Anaconda Prompt)で
+
+jupyter lab
+
+サーバー上であれば
+
+jupyter lab --ip=0.0.0.0 --no-browser
+
+で外部からの通信を許可し
+https://<サーバーのIPアドレス>:8888/labにアクセスする
+
+tokenを求められたら
+https://<サーバーのIPアドレス>:8888/?
+token=XXXXのXXXXを入力
