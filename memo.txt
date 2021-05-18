@@ -14,3 +14,17 @@ https://<サーバーのIPアドレス>:8888/labにアクセスする
 tokenを求められたら
 https://<サーバーのIPアドレス>:8888/?
 token=XXXXのXXXXを入力
+
+# 対象のフォルダ（ディレクトリ）に移動する
+$ cd hoge
+
+# git init で ローカルリポジトリを作成する
+$ git init
+$ git add .
+$ git commit -m "Initial commit"
+
+# リモートリポジトリのアクセス先を設定する
+$ git remote add origin https://github.com/GitHubのユーザ名/GitHubのリポジトリ名.git
+
+# pushする
+$ git push -u origin master
